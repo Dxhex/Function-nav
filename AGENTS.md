@@ -4,7 +4,7 @@
 
 ## 项目概述
 
-**iori-nav（灰色轨迹）** 是一个基于 Cloudflare 全家桶构建的书签导航站点。
+**function-nav（自由之风）** 是一个基于 Cloudflare 全家桶构建的书签导航站点。
 
 - **语言**: JavaScript（ES6+，无 TypeScript）
 - **平台**: Cloudflare Pages + Workers + D1 + KV

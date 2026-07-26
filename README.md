@@ -1,5 +1,3 @@
-# 灰色轨迹 - 精品网址导航站
-
 <p align="center">
   一个优雅、快速、易于部署的书签（网址）收藏与分享平台，完全基于 Cloudflare 全家桶构建。
 </p>
@@ -23,7 +21,7 @@
 </p>
 
 <p align="center">
-  <strong>🌐 在线体验:</strong> <a href="https://iori.hidns.vip/">https://iori.hidns.vip</a>
+  <strong>🌐 在线体验:</strong> <a href="https://function.indevs.in/">https://function.indevs.in/</a>
 </p>
 
 ---
@@ -301,12 +299,10 @@ npx wrangler d1 execute book --local --file=schema.sql
 ---
 
 ## 📞 联系方式
+  
+- **本项目基于作者**：[@灰色轨迹](https://github.com/jy02739244)的版本进行二次开发
+- **原项目链接**：[https://github.com/jy02739244/iori-nav](https://github.com/jy02739244/iori-nav)
 
-- **项目作者**：[@灰色轨迹](https://github.com/jy02739244)
-- **项目链接**：[https://github.com/jy02739244/iori-nav](https://github.com/jy02739244/iori-nav)
 
 <p align="center">如果你喜欢这个项目，请给它一个 ⭐️！</p>
 
-## ⭐ Star 趋势
-
-[![Star History Chart](https://api.star-history.com/svg?repos=jy02739244/iori-nav&type=date&legend=top-left)](https://www.star-history.com/#jy02739244/iori-nav&type=date&legend=top-left)
