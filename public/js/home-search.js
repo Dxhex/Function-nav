@@ -121,6 +121,10 @@
         currentSearchEngine = 'github';
         localStorage.setItem('search_engine', currentSearchEngine);
       }
+      if (currentSearchEngine === 'baidu') {
+        currentSearchEngine = 'yandex';
+        localStorage.setItem('search_engine', currentSearchEngine);
+      }
       updateSearchEngineUI(currentSearchEngine);
     } else {
       localStorage.removeItem('search_engine');
