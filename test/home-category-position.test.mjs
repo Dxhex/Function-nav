@@ -203,16 +203,16 @@ test('style three keeps the standard search engine set and order', async () => {
 
   const localIndex = html.indexOf('data-engine="local"');
   const googleIndex = html.indexOf('data-engine="google"');
-  const baiduIndex = html.indexOf('data-engine="baidu"');
+  const yandexIndex = html.indexOf('data-engine="yandex"');
   const githubIndex = html.indexOf('data-engine="github"');
 
   assert.ok(localIndex > -1);
   assert.ok(localIndex < googleIndex);
-  assert.ok(googleIndex < baiduIndex);
-  assert.ok(baiduIndex < githubIndex);
+  assert.ok(googleIndex < yandexIndex);
+  assert.ok(yandexIndex < githubIndex);
   assert.match(html, /data-engine="local"><span>站内<\/span>/);
   assert.match(html, /data-engine="google"><span>Google<\/span>/);
-  assert.match(html, /data-engine="baidu"><span>Baidu<\/span>/);
+  assert.match(html, /data-engine="yandex"><span>Yandex<\/span>/);
   assert.match(html, /data-engine="github"><span>Github<\/span>/);
   assert.doesNotMatch(html, /data-engine="bing"/);
 });
